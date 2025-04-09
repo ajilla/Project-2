@@ -1,9 +1,12 @@
 # Ignore frontend and backend dependencies
 client/node_modules/
 server/node_modules/
+node_modules/
+
 
 # Ignore environment variables (API keys etc.)
 .env
 server/.env
+
 
 
