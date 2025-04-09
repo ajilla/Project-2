@@ -1,6 +1,9 @@
-client/node_modules
-server/node_modules
+# Ignore frontend and backend dependencies
+client/node_modules/
+server/node_modules/
 
-# Ignore environment variables
+# Ignore environment variables (API keys etc.)
 .env
+server/.env
+
 
